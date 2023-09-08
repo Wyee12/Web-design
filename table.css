@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Assignment(Web Design)
+
+   Table Style Sheet
+   Author: Yap Kah Yong
+   Date:   26/8/2022
+
+   Filename:table.css
+*/
+
+html{
+    font-size:12pt;
+    line-height: 1.5;
+    background-color: rgb(230, 230, 202);
+}
+body{
+    overflow:auto;
+    width:95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+img{
+    width:300px;
+    height:300px;
+    transition:all 1s ease-out 0.5s;
+}
+img:hover{
+    width:500px;
+    height:500px;
+}
+h4.product{
+    display:block;
+    background-color:blanchedalmond;
+}
+h4.price{
+    text-align: right;
+    display:block;
+    background-color:bisque;
+}
+col#firstcol{
+    background-color: rgb(31, 176, 113);
+    width:300px;
+}
+
+col#secondcol{
+    background-color: rgb(15, 204, 78);
+}
+
+col.firstcol {
+    background-color:rgb(87, 188, 224);
+    width:300px;
+}
+
+col.secondcol{
+    background-color: rgb(114, 106, 209);
+}
+
+h3{
+    text-align:center;
+}
+body>aside{
+    float:right;
+    box-sizing:border-box;
+    border-radius: 100%/40%;
+    width:60%;
+    height:45%;
+    border:15px solid rgb(1, 54, 40);
+    padding:20px;
+    background-color: rgb(132, 103, 30);
+}
+table.material{
+    clear:right;
+    border:2px double rgb(25, 80, 146);
+    border-collapse: separate;
+    width:100%;
+}
+table.care{
+    border:2px groove purple;
+    border-collapse: separate;
+    width:100%;
+}
+
+caption{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+th{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+td,p{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+

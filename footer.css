@@ -1,0 +1,120 @@
+.caption{
+  background-color: white;
+  width: 100%;
+  height: auto;
+  align-content: center;
+  display: flex;
+  }
+  
+  .caption img{
+  width: 40px;
+  height: 40px;
+  }
+  
+  .caption1 , .caption2, .caption3, .caption4{
+  float:left;
+  padding: 5px;
+  margin: 20px;
+  align-content: center;
+  width: auto;
+  display: block;
+  }
+  
+  .caption1{
+      margin-left: 10px;
+  }
+  
+  .caption p{
+      text-align: center;
+  }
+  
+  .caption img{
+      margin-left: 80px;
+  }
+
+footer{
+    width: 100%;
+    margin: none;
+}
+
+div.footer{
+    background-color: rgb(48, 42, 42);
+    width: 100%;
+    display: flex;
+  
+  }
+  
+.footer a{
+  text-decoration: none;
+}
+
+  .footer h2{
+      color: white;
+  }
+  
+  .footer li{
+      color: white;
+      list-style-type: none;
+  }
+  
+  .footer ul img{
+      width:20px;
+      float: right;
+  }
+ 
+  .footer .sosial{
+    float: left;
+    padding: 40px;
+    margin-left: 50px;
+  }
+
+  .footer .sosial img{
+    float: left;
+    margin-right: 8px;
+  }
+
+  .footer .service{
+    float: left;
+    padding: 40px;
+    margin-left: 50px;
+    align-content: center;
+    
+  }
+
+  .footer .aboutus{
+    float: left;
+    padding: 40px;
+    margin-left: 50px;
+  }
+
+.phone{
+  color: white;
+  text-decoration: none;
+}
+  
+
+.footer a:hover , .footer a li:hover{
+color: rgb(255, 206, 100);
+text-decoration: underline;
+}
+
+@media only screen and (max-width:480px){
+  /* Mobile Flex Style*/
+  /* caption part */
+.caption img{
+  margin-left: 20px;
+}
+
+.caption1 , .caption2, .caption3, .caption4{
+  margin: 10px;
+}
+
+/* footer part*/
+.footer{
+  overflow: auto;
+}
+
+.footer h2{
+  font-size: 18px;
+}
+}  

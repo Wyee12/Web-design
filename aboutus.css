@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Assignment(Web Design)
+
+   About Us Style Sheet
+   Author: Yap Kah Yong
+   Date:   26/8/2022
+
+   Filename:table.css
+*/
+@keyframes backgroundchange {
+    0%   {background: linear-gradient(to top left, #339966 0%, #66ff33 100%);}
+    25%  {background: linear-gradient(to top left, #000099 0%, #66ccff 100%);}
+    50%  {background: linear-gradient(to top left, #9900cc 0%, #ff66ff 100%);}
+    100% {background: linear-gradient(to top left, #cccc00 0%, #990000 100%);}
+  }
+html{
+    font-size:12pt;
+    line-height:1.5;
+    height:100%;
+    background: url(img3/background_aboutus.jpg),rgb(39, 39, 136);
+    background-size: 480px 480px;
+    background-attachment: fixed;
+}
+body{
+    background-color: rgb(230, 230, 202);
+    overflow:auto;
+    width:100%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+    display:block;
+    background-color: rgb(146, 77, 77);
+    text-align:center;
+    color:rgb(39, 39, 136);
+}
+article#intro{
+    text-align: left;
+    font-family:'Kalam', cursive;
+    box-sizing:border-box;
+    border-radius: 10%/10%;
+    width:100%;
+    height:50%;
+    border:15px inset rgb(132, 52, 52);
+    padding:20px;
+    background: linear-gradient(to top left, #cc0066 0%, #ff9933 100%);
+}
+
+div.newrow{
+    background-color: rgb(230, 230, 202);
+    width:100%;
+    float:right;
+    padding:1%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    display:flex;
+    flex-flow:row wrap;
+}
+ div.mission{
+    width:300px;
+    min-height: 100px;
+    border: 5px rgb(71,52,29)dashed;
+    flex:1 0 250px;
+    background-color:teal;
+    animation-name: backgroundchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ }
+ div.vision{
+    width:300px;
+    min-height: 100px;
+    border: 5px rgb(71,52,29)dotted;
+    flex:1 0 250px;
+    background-color:teal;
+    animation-name: backgroundchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ }
+ div.value{
+    width:300px;
+    min-height: 200px;
+    border: 5px rgb(71,52,29)double;
+    flex:1 0 500px;
+    background-color:teal;
+    animation-name: backgroundchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ }
+div>p{
+    text-align: center;
+    display: block;
+    background-color: rgb(111, 92, 129);
+}
+img{
+    border-radius: 40%;
+}
+ 
+.topnav{
+    width: 100.6%;
+}
+
+header p{
+    background-color: white;
+}
+
+header img{
+    border-radius: 0%;
+    
+}
+
+footer p, footer img{
+    background-color: white;
+    border-radius: 0%;
+}

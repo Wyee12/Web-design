@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(230, 230, 202);
+  }
+
+.form{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 9px rgb(255, 215, 130);
+}
+
+.button{
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    outline: none;
+    position:relative;
+}
+
+#button{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-color: rgb(253, 184, 33);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-form{
+    top:120px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+  
+}
+
+.title{
+ margin-bottom: 10px;
+ font-size: 30px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    background-color: transparent;
+    outline: none;
+}
+
+.input:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.submit{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 224, 138);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.submit:hover{
+   background-color: rgb(255, 179, 15);
+}
+
+#flogin{
+left: 50px;
+}
+
+
+#fregister{
+    left: 450px;
+}
+
+#register{
+    margin-left: 15px;
+}
+
+.phone{
+    color: white; 
+    text-decoration:none;
+}
+

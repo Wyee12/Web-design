@@ -1,0 +1,176 @@
+body{
+  background-color: rgb(230,230,202);
+}
+
+
+
+.productbox{
+    display: flex;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    background-color: white;
+    margin: 15px;
+    position:relative;
+    font-family:sans-serif;
+}
+
+.productbox .picture{
+    width: 350px;
+    height: 350px;
+    margin: 20px 20px 20px 30px;
+   
+
+}
+
+
+
+.pictures{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 15px;
+    background : url(img/product3.jpg);
+    background-size: cover;
+    animation : picture 32s infinite;
+}
+
+@keyframes picture {
+    12.5%{
+        background:url(img/product3.jpg);
+        background-size: cover;
+    }
+    25%{
+        background:url(img/product3_7.jpg);
+        background-size: cover;
+    }
+    37.5%{
+        background:url(img/product3_2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background:url(img/product3_3.jpg);
+        background-size: cover;
+    }
+    62.5%{
+        background:url(img/product3_4.jpg);
+        background-size: cover;
+    }
+    75%{
+        background:url(img/product3_5.jpg);
+        background-size: cover;
+    }
+    82.5%{
+        background:url(img/product3_6.jpg);
+        background-size: cover;
+    }
+    100%{
+        background:url(img/product3.jpg);
+        background-size: cover;
+    }
+}
+
+.pictures:hover{
+    animation-play-state: paused;
+}
+
+.productname{
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    background: -webkit-linear-gradient(rgb(197, 32, 238), rgb(170, 52, 52));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+}
+
+
+.price{
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(235, 159, 20));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+}
+
+.productbox a{
+    display: block;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    background: linear-gradient(to bottom right, #ff0000 0%, #ffcc66 100%);
+    width: 40%;
+    text-align: center;
+}
+
+.productbox a:hover{
+    background: linear-gradient(to bottom right, #9900ff 0%, #ff0066 100%);
+}
+
+#information{
+    width: 90%;
+    border-collapse: collapse;
+    border: 4px solid  #ff0000;
+    margin: 20px 20px 20px 30px;
+}
+
+
+
+#information td, #information th{
+    border: 2px solid white;
+  
+    text-align: center;
+    
+}
+
+table th{
+    background: linear-gradient(to bottom right, #ff0000 0%, #ffcc66 100%);
+font-size: 50px;
+color: white;
+}
+
+table td{
+    background-color: wheat;
+    font-size: 30px;
+}
+
+ /* Mobile Flex Style*/
+@media only screen and (max-width:480px){
+    .productbox{
+        height: 630px;
+    }
+    .productname{
+        font-size: 35px;
+        position: absolute;
+        left: 8%;
+        top: 58%;
+    }
+
+
+    .price{
+        font-size: 30px;
+        position: absolute;
+        left: 8%;
+        top: 65%;
+    }
+
+    .productbox a{
+        position: absolute;
+        left: 10%;
+        top: 85%;
+        width: 70%;
+    }
+}

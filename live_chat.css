@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(230, 230, 202);
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    border: 2px solid #dedcdc;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+  
+.darker {
+    border-color: rgb(204, 204, 204);
+    background-color: rgb(221, 221, 221);
+}
+  
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+  
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+  
+.time-right {
+    float: right;
+    color: rgb(170, 170, 170);
+}
+  
+.time-left {
+    float: left;
+    color: rgb(153, 153, 153);
+}
+
+body{
+    box-sizing: border-box;
+}
+.chat {
+    float: left;
+    border: 1px solid;
+    border-style: outset;
+    width: 49.5%;
+}
+
+.chat:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.chat:hover {
+   transform: translateY(-4px);
+   box-shadow: 25px 25px 10px  rgba(22, 30, 44, 0.1);
+}
+
+#livechat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+#livechatg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+nav#Links a {
+    color: rgb(131, 115, 250);
+    transition: all 1.2s linear;
+}
+nav#Links a:hover {
+    transform: scale(2,2) translateY(0px);
+}
+
+p {
+    text-align: center;
+}
+
